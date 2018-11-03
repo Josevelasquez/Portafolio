@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/ed-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/validar.js"></script>
+    <title>Contactame</title>
+</head>
+<body>
+
+    <section class="ed-container form_wrap">
+        <form action="php/procesar.php" method="POST" class="form_contact ed-container ed-item" onsubmit="return validar()">
+            <h2>¡Envíame un mensaje y estaré encantado de ayudarte!</h2>
+            <div class="user_info">
+                <label for="names"> Nombres *</label>
+                <input type="text" id="names" name="nombre" required >
+
+                <label for="phone"> Teléfono *</label>
+                <input type="text" id="phone" name="telefono" required >
+
+                <label for="email"> Correo electrónico *</label>
+                <input type="email" id="email" name="correo" required >
+
+                <label for="mensaje">Descripción *</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <input type="submit" value="Enviar mensaje" id="btnSend" required>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+    <p class="copy">&copy; Jose Arturo Velasquez 2018</p>
+    <div class="social main-center">
+        <a href="https://www.linkedin.com/in/jose-arturo-velasquez-laborde-2398a1136/" target="_blank" class="social-icon"><i class="icono fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/JOSEVELASQUEZ7" target="_blank" class="social-icon"><i class=" icono fab fa-twitter"></i></a>
+        <a href="https://plus.google.com/?hl=es" target="_blank" class="social-icon"><i class="icono fab fa-github"></i></a>
+        <a href="https://plus.google.com/?hl=es" target="_blank" class="social-icon"><i class="icono fab fa-google-plus-square"></i></a>
+    </div>
+</footer>
+</body>
+</html>

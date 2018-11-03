@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,p{
+    font-family: Montserrat, sans-serif;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/adult-apple-device-business-340152-2.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    filter:brightness(0.5);
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-text{
+    font-family: Montserrat, sans-serif;
+    color: #FFFFFF;
+    font-size: 3em;
+}
+.button-main{
+    width: 10em;
+    line-height: 45px;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    border: 2px solid #FED766;
+}
+.button-main a{
+    font-family: Montserrat, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.button-main:hover{
+    background-color: #FED766;
+}
+.button-main:hover a{
+    color:#252a30 ;
+    font-weight: bold;
+}
+.titulo-info{
+    font-size: 1.3em;
+    color: #252a30;
+}
+.text-info{
+    height: 160px;
+    color: #93a4aa;
+    text-align:justify;
+}
+.titulo-info-principal, .titulo-info-secundaria{
+    text-align: center;
+    font-size: 2.2em;
+    color: #252a30;
+}
+.titulo-info-principal{
+    margin-top: 40px;
+}
+.titulo-info-secundaria{
+    margin-bottom: 30px;
+    color: #93a4aa;
+}
+.container-projects{
+    background-color: #eeeeee;
+}
+.contact-container{
+    background-color: #FED766;
+}
+.titulo-contact{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color:#252a30;
+    font-weight: 700;
+    font-size: 1.6em;
+}
+.text-contact{
+    font-size: 1em;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    color: #252a30;
+}
+
+.button-contact{
+    width: 15em;
+    text-align: center;
+    line-height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 130px;
+    border-radius: 25px;
+    border: 3px solid #252a30;
+}
+.button-contact a{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: #252a30;
+    text-decoration: none;
+}
+.button-contact:hover{
+    background-color: #252a30;
+}
+.button-contact:hover a{
+    color:#FED766 ;
+    font-weight: bold;
+}
+/*--- inicio footer --*/
+
+.footer{
+    background: #333;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+.social{
+    margin-top: 50px;
+}
+
+.copy{
+    color: #93a4aa;
+    font-size: 20px;
+}
+
+.icono{
+    color: #eeeeee;
+    font-size: 40px;
+    margin-left: 25px;
+    opacity: .4;
+}
+
+.icono:hover{
+    opacity: initial;
+}
+
